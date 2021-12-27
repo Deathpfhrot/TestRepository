@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colpan and Rawspan</title>
+    <style>
+        table {
+            margin-bottom: 50px;
+        }
+
+        th {
+            background-color: gray;
+        }
+
+        table,
+        th,
+        td {
+            border-collapse: collapse;
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        th,
+        td {
+            width: 100px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Ergebnisvorschau 1</h1>
+    <table>
+        <tr>
+            <th rowspan="2">Name</th>
+            <th rowspan="2">ID</th>
+            <th colspan="2">Membership Dates</th>
+            <th rowspan="2">Balance</th>
+        </tr>
+        <tr>
+            <th>Joined</th>
+            <th>Cancelded</th>
+        </tr>
+        <tr>
+            <th>Margaret Nguyen</th>
+            <td>427311</td>
+            <td>June 3, 2010</td>
+            <td>n/a</td>
+            <td>0.00</td>
+        </tr>
+        <tr>
+            <th>Edvard Galinski</th>
+            <td>533175</td>
+            <td>January 13, 2011</td>
+            <td>April 8, 2017</td>
+            <td>37,00</td>
+        </tr>
+        <tr>
+            <th>Hoshi Nakamura</th>
+            <td>601942</td>
+            <td>July 23, 2012</td>
+            <td>n/a</td>
+            <td>15,00</td>
+        </tr>
+    </table>
+
+
+    <h1>Ergebnisvorschau 2</h1>
+
+    <table>
+        <tr>
+            <th>comp</th>
+            <th>num</th>
+            <th>website</th>
+            <th>address</th>
+        </tr>
+        <tr>
+            <td rowspan="2">comp 1</td>
+            <td>123455678</td>
+            <td rowspan="2">
+                <a href="#">website1.1</a>
+                <a href="#">website1.2</a>
+            </td>
+            <td rowspan="2">adress1</td>
+        </tr>
+        <tr>
+            <td>1234567890</td>
+        </tr>
+
+        <tr>
+            <td>comp 2</td>
+            <td>01234567890</td>
+            <td><a href="#">website2</a></td>
+            <td>address2</td>
+        </tr>
+    </table>
+
+    <h1>Ergebnisvorschau 3</h1>
+
+    <table>
+        <tr>
+            <th>User:</th>
+            <td colspan="3">user1</td>
+            <td colspan="2">user2</td>
+        </tr>
+        <tr>
+            <th>num:</th>
+            <td>0123456789</td>
+            <td>1234567789</td>
+            <td>1234567890</td>
+            <td>1345677890</td>
+            <td>1234566789</td>
+        </tr>
+    </table>
+
+    <h1>Ergebnisvorschau 4</h1>
+
+    <table>
+        <tr>
+            <th>User</th>
+            <th>num</th>
+        </tr>
+
+        <tr>
+            <td rowspan="3">user1</td>
+            <td>123</td>
+        </tr>
+        <tr>
+            <td>123</td>
+        </tr>
+        <tr>
+            <td>123</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">user2</td>
+            <td>123</td>
+        </tr>
+        <tr>
+            <td>123</td>
+        </tr>
+
+        <tr>
+            <td rowspan="5">user3</td>
+            <td>123</td>
+        </tr>
+        <tr>
+            <td>123</td>
+        </tr>
+        <tr>
+            <td>123</td>
+        </tr>
+        <tr>
+            <td>123</td>
+        </tr>
+        <tr>
+            <td>123</td>
+        </tr>
+    </table>
+
+    <h1>Ergebnisvorschau 5</h1>
+
+    <table>
+        <tr>
+            <th>comp:</th>
+            <td>comp1</td>
+            <td colspan="2">com2</td>
+            <td>comp3</td>
+            <td colspan="2">comp4</td>
+        </tr>
+        <tr>
+            <th>num:</th>
+            <td>012345</td>
+            <td>12345</td>
+            <td>1234</td>
+            <td>1234</td>
+            <td colspan="2">1234</td>
+        </tr>
+        <tr>
+            <th>website</th>
+            <td><a href="#">website1</a></td>
+            <td colspan="2"><a href="#">website2</a></td>
+            <td><a href="#">website3</a></td>
+            <td><a href="#">website4</a></td>
+            <td><a href="#">website5</a></td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+    </table>
+</body>
+
+</html>
